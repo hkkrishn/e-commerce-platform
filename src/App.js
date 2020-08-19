@@ -1,24 +1,19 @@
+//Author:Harikrishnan Kuppusamykrishnan
+//Project: E-Commerce Website
+//Date: 08/06/2020
+//Description: This is the main holding component for all our pages and components,acts as a container
+//and information source.
+
+
 import React from 'react';
-import logo from './logo.svg';
+//Homepage container
+import {Homepage} from './components/homepage/homepage.component'
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     <Homepage/>
     </div>
   );
 }
